@@ -1,0 +1,141 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+      $( function() {
+        $( "#accordion" ).accordion({
+          collapsible: true
+        });
+      } );
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Side panel-->
+    <div class="row">
+
+      <div class="col s12 m4 l3"> <!-- Note that "m4 l3" was added -->
+
+        <div class="row">
+        <div class="col s12 m10">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">About Me</span>
+                <p>I am a sophomore undergraduate student at Carnegie Mellon University studying Statistics and Machine Learning expecting to graduate in May of 2020. My primary programming language is Java, though I am proficient in Python and C and have experience working with HTML, CSS, JavaScript, and XML. I have work experience with Android Studio and the Agile development methodology. I am looking for an internship during the summer of 2018.</p></div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+        <div class="col s12 m10">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Contact Me</span>
+              <p>Email: yhari@andrew.cmu.edu</p>
+            </div>
+            <div class="card-action">
+              <a href="https://www.linkedin.com/in/yasasvi-hari-91a385147/">Linkedin</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col s12 m10">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Languages & Technologies Used</span>
+              <p><b><u>Languages (in order of familiarity):</u></b> Java, Python, C, HTML, CSS, JavaScript, XML </p>
+              <p><b><u>Technologies:</u></b> Git, Android Studio, MS Office Suite, IntelliJ, Sublime</p> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+
+      <!-- Main Stuff-->
+      <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was added -->
+            <div class="row">
+            <div class="col s12 m12">
+              <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title">Work Experience & Research</span>
+                  <p>Currently, I am a research assistant intern working under <a href="http://www.nikolabanovic.net/">Nikola Banovic</a>, a 6th year Ph.D. candidate in <a href="https://www.hcii.cmu.edu/">CMU's Human Computer Interaction Institute (HCII)</a>. There, I worked on developing a model which estimated the speed of autocorrection algorithms and accounted for accuracy. I then contributed to a paper about this model which was then submitted for peer review. Currently, I am building upon this research by desiging the optimal keyboard based on that model. Additionally, I am also contributing to a data visualization tool that clearly and efficiently displays cancer data for clinicians to use. This research experience has taught me invaluable lessons in software engineering, algorithm design, and the flexibility of computer science. It has motivated me to pursue a career in software engineering. Project details can be given upon request,</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/yhari2">My Github Profile</a>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+            <div class="col s12 m12">
+              <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title">Interests</span>
+                    <p> Broadly speaking, my iterests are practical, data-driven applications. By this, I mean any applications that use data in novel ways to the benefit of the largest number of users. I am currently looking for software engineering internships over the summer for companies that also further this interest. Data are playing an increasingly big part in HCI, my field of research. Because of this changing trend, I aim to leverage my understanding of data science to help design increasingly effective applications. I am currently looking for an internship at companies which would further my interest.</p>
+                </div>
+              </div>
+            </div>
+    
+
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card height=4400px blue-grey darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title">Projects</span>
+                  <p>This is a selection of some of the projects that I am working on or have worked on and a brief description of what each does. Please click on each project to read a little bit more about it. More details can be provided upon request.</p>
+                </div>
+                <div class="card-action white-text">
+                    <div id="accordion" style="font-family: Roboto;">
+                        <h5 style="font-size: 140%; font-weight: bold;">Input Method Entry (IME) Research</h5>
+                        <div style="font-size: 80%;">
+                            <p>Building on some of my prior research, this project is looking to create the optimal QWERTY keyboard based on a model that we created over the summer. This research is an improvement over existing research because it does not transpose the positions of keys; rather, it leaves keys in the same place but manipulates the sizes of certain keys.  </p>
+                        </div>
+                        <h5 style="font-size: 140%; font-weight: bold;">Behavior Dashboard</h5>
+                        <div style="font-size: 80%;">
+                            <p>Built with Apache Spark and SQL, this project dynamically accesses a database of cancer data and displays them to clinicians to help them make better recommendations to patients. It enables the user to simulate "what-if" scenarios based on patients with similar histories.</p>
+                        </div>
+                        <h5 style="font-size: 140%; font-weight: bold;">Engineers Without Borders (EWB) Drones</h5>
+                        <div style="font-size: 70%;">
+                            <p>EWB is an on-campus organization at CMU which specializes in doing service projects that apply engineering concepts to solve real-world problems. The goal of this project is to enable a drone to fly over crop fields in Rwanda and to take pictures of them. The pictures will then be stitched together and then analyzed to help Rwandan farmers identify where they need to add more irrigation and where they can have less. </p>
+                        </div>
+                        <h5 style="font-size: 140%; font-weight: bold;">Baby Blue</h5>
+                        <div style="font-size: 70%;">
+                            <p>This is a chess program that I wrote for my 15-112 Term Project. It has a fully functioning AI algorithm based on the classic Minimax Alphabeta pruning algorithm. The algorithm traverses all possible positions that can arise from a given position. From there, it evaluates each position and compares it to the best possible position that it had seen. </p>
+                        </div>
+                      <h5 style="font-size: 140%; font-weight: bold;">Web Development</h5>
+                      <div style="font-size: 70%;">
+                          <p>I am currently making a website for a University of Pittsburgh student. This website is powered by Django, a powerful python web framework, and stylized with Materialize, Google's frontend CSS framework. Additionally, this website will use YouTube and Instagram RESTful API's, which will dynamically display Instagram posts and YouTube videos from their respective sources. </p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <footer class="page-footer blue-grey darken-1">
+         <div class="container">
+            <div class="row">
+              <div class="col l10 s12">
+                <p class="grey-text text-lighten-4">Updated in December 2017 by Yasasvi Hari</p>
+              </div>   
+            </div>
+          </div>
+    </footer>
+            
+</body>
+</html>
+
